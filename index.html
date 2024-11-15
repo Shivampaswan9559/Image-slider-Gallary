@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imgae_slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="select">
+            <div class="catageory"><i class="fa-solid fa-photo-film"></i>Image Gallary</div>
+            <div class="search_box">
+                <input type="search" id="search" placeholder="Enter here...">
+               <button id="search_botton" onclick="searching()">Search</button>
+            
+        </div>
+    </header>
+        <section><span>select the catageory</span></section>
+    <main>
+         <div class="box">
+            <div class="constainer">
+                <div class="catageoryes"><a  onclick="hello()"><img src="./photo1.jpg" alt="">Nature</a></div>
+                <div class="catageoryes"><a onclick="hello2()"><img src="./photo11.jpg" alt="">House</a></div>
+                <div class="catageoryes"><a onclick="hello3()"><img src="./photo21.jpg" alt="">Animal</a></div>
+            </div>
+            <div class="constainer_2">
+                <div class="catageoryes"><a onclick="hello4()"><img src="./photo31.png" alt="">Electronic</a></div>
+                <div class="catageoryes"><a onclick="hello5()"><img src="./photo41.jpg" alt="">Bike</a></div>
+                <div class="catageoryes"><a onclick="hello6()"><img src="./photo51.jpg" alt="">Car</a></div>
+               
+            </div>
+         </div>
+    </main>
+    <div class="button">
+  <button class="btn" id="btn1" onclick="prev()"><i class="fa-solid fa-arrow-left"></i></button>
+  <button class="btn" id="close" onclick="closed()"> Close</button>
+  <button class="btn" id="btn2" onclick="next()"><i class="fa-solid fa-arrow-right"></i></button></div>
+   <div class="shivam" id="1"; ></div>
+   
+    <script src="Image_slider.js"></script>
+    <footer>
+       <div class="see_more" onclick="see_more()"><a id="see_more">See more Catageory</a></div>
+       <div class="main_footer">
+        <div class="boxess">
+            <div class="first_sec">
+                <div class="contact">Contact Us</div>
+                <div class="mob">Contact number - 0553985353 / 437539534</div>
+                <div class="email_id">Email - shivam95593438@gmail.com</div>
+                <div class="castmar">Castmar id - 32852385287298</div>
+                
+            </div>
+            <div class="sec_sec">
+                <div class="about_us"><a> About Us</a></div>
+                <div class="addres">Address - 32B XXXXX Uttar pradesh Inida</div>
+                <div class="pincode">PinCode - 3284234</div>
+            </div>
+            <div class="thir_sec">
+                <div class="follow_us"><a >Follow Us</a></div>
+               <div class="logo"> 
+                <div class="logo_img"><a href="https://www.instagram.com/shivam_gkp_95?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram" id="insta"></i></a><a href="https://www.facebook.com/shivampaswan.shivampaswan.18"><i class="fa-brands fa-facebook" id="fb"></i></a><a href="https://x.com/thecodercoder"><i class="fa-brands fa-twitter" id="twi"></i></a><a href="https://www.youtube.com/@digital_knowledge_with_shivam/shorts"><i class="fa-brands fa-youtube" id="yt"></i></a></div>
+                
+            
+            </div>
+            </div>
+           
+        </div>
+       </div>
+    </footer>
+</body>
+</html>

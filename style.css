@@ -1,0 +1,304 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: unset;
+    background-attachment: fixed;
+    background-image: url(./background1.jpg);
+  
+}
+
+header
+{   
+     background-attachment: fixed;
+    background-color: #0D141E;
+    height: 5rem;
+    width: 100%;
+    background-attachment: fixed;
+    margin: -1em 0 0 0;
+ }
+
+.select
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    align-items: center;
+
+}
+
+.catageory
+{
+    margin-top: -20px;
+    width: 40%;
+    font-size: 40px;
+    font-weight: 800;
+   color: chartreuse;
+    
+}
+
+.catageory i
+{
+    color: crimson;
+}
+
+ .search_box
+ {
+    margin-top: -20px;
+ }
+
+#search 
+{
+    height: 3rem;
+    width: 23rem;
+    margin: 2em 0 ;
+    background-color: papayawhip;
+    font-size: 18px;
+    outline: none;
+    border-radius: 5px;
+}
+
+#search_botton
+{
+    height: 3rem;
+    width: 6rem;
+    background-color: rgba(212, 253, 82, .5);
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+main
+{
+    
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+
+section
+{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    color:#000;
+    text-transform: uppercase;
+    background-color: chartreuse;
+}
+
+.constainer , .constainer_2
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.catageoryes
+{
+    height: 14.5rem;
+    width: 14.5rem;
+    border-radius: 5px;
+    text-align:center;
+}
+
+.catageoryes a :hover
+{
+    transform: scale(1.5,1);
+    transition: all 0.5s ease ;
+    font-size: 12rem;
+}
+
+.catageoryes :hover
+{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: rgb(132, 2, 2);
+}
+
+.catageoryes img
+{
+    height: 90%;
+    width: 100%;
+    position:static;
+}
+
+.catageoryes a 
+{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.button
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+   
+}
+
+.btn
+{
+    height: 3em;
+    width: 3em;
+    margin: 0 8em;
+    outline: none;
+    border: none;
+    background-color: rgba(212, 253, 82, .5);
+    border-radius: 5px;
+    margin-bottom: 40px;
+    visibility: hidden;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn:hover
+{
+    color:#E1306C;
+}
+
+.btn:active
+{
+    color: red;
+}
+
+#close
+{
+    width: 4em;
+    font-weight: 600;
+}
+
+.shivam
+{
+    height: 540px;
+    width: 800px;
+    border: 2px solid chartreuse;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -640px;
+    background-image: url("./photo3.jpg");
+    background-position: center;
+    background-size: cover;
+    visibility: hidden;
+}
+
+footer
+{
+    height: 200px;
+    width: 100%;
+    margin: 50px 0 0 0;
+    margin-top: 60px;
+   
+}
+
+.see_more
+{
+    background-color: #0D141E;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    font-weight: 800;
+    font-size: 23px;
+    
+}
+
+.see_more:hover
+{
+    cursor: pointer;
+    color: rgba(212, 253, 82, .5);
+}
+.see_more:active
+{
+    color: rgb(132, 2, 2);
+}
+
+.main_footer
+{
+    background-color: #232F3E;
+    height: 200px;
+}
+
+.boxess
+{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+}
+
+.first_sec , .sec_sec , .thir_sec , .four_sec
+{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.mob , .email_id , .addres , .castmar , .pincode
+{
+    margin-top: 20px;
+   text-align: left;
+}
+
+.contact , .about_us , .follow_us
+{
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: #000;
+}
+
+.insta i 
+{
+    height: 40px;
+    width: 40px;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.logo_img
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo_img i
+{
+    font-size: 45px;
+    margin: 0 40px 0 0px;
+    color: black;
+}
+
+#insta:hover
+{
+    color: #E1306C;
+}
+
+#fb:hover
+{
+  color: #316FF6;
+}
+
+#twi:hover
+{
+   color: 	#1DA1F2;
+}
+
+#yt:hover
+{
+   color: 	#FF0000;
+}
